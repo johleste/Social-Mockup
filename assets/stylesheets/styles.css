@@ -4,11 +4,15 @@ The header should be exactly 850 pixels wide (including borders), and centered w
 
 
 *{
-    background-color: 	#dfe3ee;
+    background-color: 	white;
     text-align: center; 
 }
 nav{
     margin: 0 auto;
+}
+button{
+    background-color: white;
+    color: lightslategrey;
 }
 h5{
     position: relative;
@@ -50,7 +54,7 @@ div.underbanner{
     text-align: center;
     color: black;
     background-color: white ;
-    width: 850px;
+    width: 848px;
     border: solid black 2px;
 }
 button.timeline,
@@ -70,26 +74,29 @@ h2{
 The left column should be 328 pixels wide (including borders), the right column should be 512 pixels wide (including borders), and the space separating them should be 10 pixels wide. 
 This should exactly match the 850 pixel wide header you previously created.
 */
+.bodydiv{
+    text-align: center;
+    background-color: #dfe3ee ;
+    width:850px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
 .left-column{ /*328 pixel width*/
     color: black;
     position: relative;
     text-align: center;
-    background-color: lightblue;
+    background-color: 	#dfe3ee;
     width: 316px;
     float: left;
     border:solid black 1px;
     padding: 1px 1px 1px 1px;
 }
-.bodydiv{
-    text-align: center;
-    width:850px;
-    margin: 0 auto;
-}
+
 .right-column{ /*512 pixel width*/
 color: black;
 text-align: center;
 position: relative;
-background-color:lightblue;
+background-color:	#dfe3ee;
 float: right;;
 width: 500px;
 border: solid black 1px;
