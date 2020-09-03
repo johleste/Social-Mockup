@@ -1,0 +1,121 @@
+/* Create a header using what you have learned about the box model and how to position elements using CSS. 
+The header should be exactly 850 pixels wide (including borders), and centered within the full width of the screen.
+*/
+
+
+*{
+    background-color: 	#dfe3ee;
+    text-align: center; 
+}
+nav{
+    margin: 0 auto;
+}
+h5{
+    position: relative;
+    background-color: #3b5998;
+    color: white;
+}
+h6{
+    position: relative;
+    background-color: #3b5998;
+    color: white;
+}
+.profilephoto{
+        
+        background-color: #3b5998;
+
+    }
+div.banner
+{
+    /*850 pixel width*/
+    color:white;
+    background-color: #3b5998;
+    position: top;
+    width: 848px;
+    border: solid black 2px;
+    display: inline-block;   
+}
+div.profilephoto{
+    text-align: left;
+}
+button.extra,
+button.message,
+button.follow,
+button.like{
+    text-align: center;
+    float: right;
+}
+div.underbanner{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    background-color: white ;
+    width: 850px;
+    border: solid black 2px;
+}
+button.timeline,
+button.about,
+button.welcome,
+button.FWB,
+button.more{
+    text-align: center;
+    float: center;
+}
+h2{
+    background-color: white;
+    border: blue 5px solid;
+}
+
+/*Below the header, create a two-column layout. 
+The left column should be 328 pixels wide (including borders), the right column should be 512 pixels wide (including borders), and the space separating them should be 10 pixels wide. 
+This should exactly match the 850 pixel wide header you previously created.
+*/
+.left-column{ /*328 pixel width*/
+    color: black;
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    width: 316px;
+    float: left;
+    border:solid black 1px;
+    padding: 1px 1px 1px 1px;
+}
+.bodydiv{
+    text-align: center;
+    width:850px;
+    margin: 0 auto;
+}
+.right-column{ /*512 pixel width*/
+color: black;
+text-align: center;
+position: relative;
+background-color:lightblue;
+float: right;;
+width: 500px;
+border: solid black 1px;
+padding: 10px 10px 10px 10px;
+}
+div.leftcolumnbox{
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    margin: 1px 1px 1px 1px;
+}
+div.rightcolumnbox{
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    margin: 2px 2px 2px 2px;
+}
+h3{
+    height: 40px;
+    border: gray 1px solid;
+    text-align: left;
+}
+h4{
+
+    text-align: left;
+    color: blue;
+    background-color: white;
+
+}
